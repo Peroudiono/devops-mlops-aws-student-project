@@ -34,4 +34,5 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t ml-api .
+        docker build -t ml-api -f docker/Dockerfile .
+
